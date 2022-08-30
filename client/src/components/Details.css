@@ -1,0 +1,85 @@
+#detail{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-self: center;
+    text-align: center;
+}
+#detail h1{
+    font-size: 55px;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    display: block;
+}
+
+#detailTitle{
+    text-align: center;
+}
+#detail-list {
+    padding-top: 10px;
+}
+#detail-list h4{
+    font-size: larger;
+}
+#detail-list p{
+    font-size: medium;
+}
+.activities-holder{
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.activities-holder h5{
+    font-size: large;
+    margin-top: 3px;
+}
+#error{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.activities-holder p{
+    font-size: smaller;
+}
+.activity{
+    padding: 10px;
+}
+#detail button{
+    
+    border-radius: 5px;
+    background-color: white;
+    padding: 2px 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;;
+}
+#detail button:hover{
+    background-color: rgb(250, 161, 129);
+    transform: scale(1.005);
+    cursor: pointer;
+}
+#detail #detail-list{
+    padding-left: 10px;
+
+}
+#activitiesh4{
+      
+    padding-left: 10px;
+    font-size: larger;
+    
+}
+
+#detail img{
+    display: block;
+    object-fit: scale-down;
+    max-height: 350px;
+    width: auto;
+}
+
+#detail #temperaments{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

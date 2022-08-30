@@ -1,0 +1,59 @@
+#dog-create{
+    background-color: bisque;
+    padding-left: 10px;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.activity-created{
+    background-color: bisque;
+    padding-left: 10px;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.div-types{
+    columns: 6;
+    padding-top: 10px;
+}
+
+#text-input{
+    padding-top: 10px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+#number-input{
+    padding-top: 10px;
+    width: fit-content;
+}
+
+#number-input label{
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+#temps-container{
+    padding-top: 10px;
+}
+
+#temps-container h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+#dog-create button{
+    
+    border-radius: 5px;
+    background-color: white;
+    padding: 2px 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;;
+}
+#dog-create button:hover{
+    background-color: rgb(250, 161, 129);
+    transform: scale(1.005);
+    cursor: pointer;
+}
